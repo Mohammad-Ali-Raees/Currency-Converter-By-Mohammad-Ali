@@ -267,72 +267,13 @@ let MyCurrencyExchange = async () => {
 
 }
 
-window.addEventListener('load', function () {
-    var chart = document.getElementById('myChart').getContext('2d');
-    // var charts = new Chart(myChart, {
-    //     type: 'line',
-    //     data: {
 
-    //         datasets: [{
-    //             label: 'Country Economy ',
-    //             data: [100,2],
-    //             options: {
-    //                 responsive: true,
-    //                 plugins: {
-    //                   title: {
-    //                     display: true,
-    //                     text: (ctx) => 'Point Style: ' + ctx.chart.data.datasets[0].pointStyle,
-    //                   }
-    //                 }
-    //               },
-
-    //             backgroundColor: [
-    //                 'rgba(128, 128, 128, 0.13)',
-    //                 'rgba(255, 192, 203, 0.644)',
-    //                 'rgba(255, 166, 0, 0.336)',
-    //                 'rgba(255, 206, 86, 0.2)',
-    //                 'rgba(54, 162, 235, 0.2)',
-    //                 'rgba(54, 162, 235, 0.2)',
-    //                 '#4934d450',
-    //                 'rgba(172, 255, 47, 0.246)',
-    //                 'rgba(255, 166, 0, 0.336)',
-    //                 'rgba(255, 192, 203, 0.644)',
-    //                 'rgba(54, 162, 235, 0.2)',
-    //                 'rgba(54, 162, 235, 0.2)',
-
-    //             ],
-    //             borderColor: [
-    //                 'rgba(128, 128, 128, 0.281)',
-    //                 'palevioletred',
-    //                 'rgba(255, 159, 64, 1)',
-    //                 'rgba(255, 159, 64, 1)',
-    //                 'rgba(54, 162, 235, 1)',
-    //                 'rgba(54, 162, 235, 1)',
-    //                 '#4934d4b2',
-    //                 'greenyellow',
-    //                 'rgba(255, 159, 64, 1)',
-    //                 'rgba(255, 159, 64, 1)',
-    //                 'rgba(54, 162, 235, 1)',
-    //                 'rgba(54, 162, 235, 1)',
-
-    //             ],
-    //             borderWidth: 3,
-
-    //         },
-
-    //         ],
-
-    //     },
-    // })
-
-
-})
 
 
 btn.addEventListener('click', (e) => {
     e.preventDefault();
     MyCurrencyExchange();
-    //getAlldata()
+   
 
 
 })
